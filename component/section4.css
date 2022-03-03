@@ -1,0 +1,13 @@
+.main-section3 {
+  background-color: #04002f;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-bottom: 10px solid #000000;
+}
+
+.p1 {
+  font-family: 'Fira Code', monospace;
+  font-size: 30px;
+  text-align: center;
+  color: white;
+}

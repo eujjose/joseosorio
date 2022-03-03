@@ -1,0 +1,39 @@
+.tituloP {
+  font-family: 'Press Start 2P', cursive;
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  text-shadow: 4px 4px 0 #000;
+  margin-bottom: 60px;
+}
+
+.main-section2 {
+  background-color: #111111;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-bottom: 10px solid #000000;
+}
+
+.thumb {
+  display: flex;
+  justify-content: center;
+}
+
+.t1 {
+  box-shadow: 6px 6px 0 white;
+  margin-right: 50px;
+  transition: transform 150ms linear;
+}
+
+.t2 {
+  box-shadow: 6px 6px 0 white;
+  margin-left: 50px;
+  transition: transform 150ms linear;
+}
+
+.t1:hover {
+  transform: scale(1.1);
+}
+.t2:hover {
+  transform: scale(1.1);
+}

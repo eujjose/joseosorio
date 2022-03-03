@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@500&family=Press+Start+2P&display=swap');
+
+.body- {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+input {
+  padding: 0px;
+}
+
+/*-----------------HEADER---------------*/
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+  background-color: #111111;
+  align-items: center;
+  border-bottom: 10px solid #000;
+  padding: 10px 20px;
+}
+
+.conteudo-cabecalho {
+  text-align: right;
+}
+
+.a1 {
+  display: flex;
+  align-items: center;
+  display: inline-flex;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: 'Fira Code', monospace;
+  font-weight: 500;
+  margin-right: 30px;
+  color: white;
+  text-align: right;
+}
+
+.a1::before {
+  content: '';
+  background-color: #ffffff;
+  width: 10px;
+  height: 10px;
+  margin-right: 10px;
+}
+
+.buttoncv {
+  display: inline-block;
+  height: 60px;
+  line-height: 60px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #0f048a;
+  color: white;
+  box-shadow: 7px 7px 0 black;
+  margin-right: 0;
+  transition: transform 150ms linear;
+}
+.buttoncv:hover {
+  transform: scale(1.09);
+  display: inline-block;
+  background-color: #04002f;
+}
+
+/*--------------MAIN-----------------*/
+
+.conteudo-main {
+  display: block;
+  margin-left: 1100px;
+  padding-top: 200px;
+  align-items: center;
+}
+.principal {
+  color: #0f048a;
+  font-size: 40px;
+  font-family: 'Press Start 2P', cursive;
+  padding-right: 90px;
+  padding-top: 42px;
+  padding-left: 90px;
+  text-shadow: 4px 4px 0px #000;
+  padding-bottom: 0px;
+}
+
+.principal2 {
+  color: white;
+  font-size: 30px;
+  font-family: 'Press Start 2P', cursive;
+  padding-left: 25px;
+
+  text-shadow: 3px 3px 0px #000;
+}
+
+.conteudo-escrito {
+  background-color: #111111;
+  width: 627px;
+  height: 184px;
+  align-items: center;
+  box-shadow: 6px 6px 0 #000;
+}
+
+.b1 {
+  width: 170px;
+  height: 60px;
+  background-color: #0f048a;
+  color: white;
+  box-shadow: 6px 6px 0 black;
+  margin-right: 0;
+  transition: transform 150ms linear;
+  border: none;
+  font-size: 22px;
+}
+
+.b2 {
+  background-color: #0f048a;
+  color: white;
+  box-shadow: 6px 6px 0 black;
+  transition: transform 150ms linear;
+  width: 170px;
+  height: 60px;
+  border: none;
+  margin-left: 80px;
+  font-size: 22px;
+}
+.b1:hover {
+  transform: scale(1.04);
+  display: inline-block;
+  background-color: #04002f;
+}
+.b2:hover {
+  transform: scale(1.04);
+  display: inline-block;
+  background-color: #04002f;
+}
+
+.conteudo-botton {
+  padding-top: 40px;
+  padding-left: 95px;
+}
+
+/*--------------------MAIN 2---------------------------*/
+/*--------------------MAIN 2---------------------------*/
+/*--------------------MAIN 2---------------------------*/
+
+.main-section {
+  background-color: #04002f;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-bottom: 10px solid #000000;
+}
+
+.h2-sec {
+  font-family: 'Press Start 2P', cursive;
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  text-shadow: 4px 4px 0 #000;
+  margin-bottom: 60px;
+}

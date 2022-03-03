@@ -1,0 +1,29 @@
+.text {
+  margin: 10px;
+  margin-left: 1px;
+  text-shadow: 3px 3px 0 #000;
+}
+
+.skil-tec {
+  display: flex;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 25px;
+  color: white;
+  margin: 10px;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.skil-tec .icon {
+  margin-right: 25px;
+  width: 90px;
+}
+
+.skil-tec .right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space;
+}
+
+.skil-tec .text {
+  margin-bottom: 12px;
+}

@@ -1,0 +1,23 @@
+.main-form {
+  padding-right: 40px;
+  padding-left: 40px;
+}
+
+.main-form {
+  background-color: #111111;
+  height: 800px;
+}
+
+.main-form .main-input {
+  margin-bottom: 20px;
+}
+
+.tituloZ {
+  font-family: 'Press Start 2P', cursive;
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  text-shadow: 4px 4px 0 #000;
+  margin-bottom: 40px;
+  padding-top: 30px;
+}

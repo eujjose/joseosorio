@@ -1,0 +1,18 @@
+.footer {
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 10px solid #04002f;
+}
+
+.icon-footer {
+  width: 40px;
+  height: 40px;
+}
+
+.icon-footerr {
+  width: 40px;
+  height: 40px;
+  margin: 50px 50px;
+}
